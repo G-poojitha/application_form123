@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My application</title>
+	<style>
+		
+		a:link {
+			text-decoration: none;
+		}
+		a:link,a:visited {
+			display: inline-block;
+			padding: 10px 10px;
+			text-align: center;
+			background-color: lightpink;
+		}
+		a:hover,a:active {
+			background-color: yellow;
+		}
+        a:active{
+            color: violet;
+        }
+		h1 {
+			text-shadow: 2px 2px red;
+		}
+		p{
+			color: deepskyblue;
+			font-size: 150% ;
+			border: green;
+			border-width: 3px;
+			border-style: dashed;
+			margin: 70px;
+			padding: 20px
+		}
+        .container img {
+            position: fixed;
+        }
+        .content {
+           position: absolute;
+        }
+        img {
+            width: 1500px;
+            height: 1000px;
+            z-index: -1;
+            opacity: 0.3;
+        }
+	</style>
+</head>
+<body>
+    <div class="container">
+        <img src="C:\Users\LENOVO\Pictures\Saved Pictures\n2.jpg" alt="nature.com">
+      <div class="content">
+       <center>
+        <fieldset style="font-size: 100;border: green;border-width: 4px;border-style: solid;">
+        <h1 style="color: deeppink;font-size: 100"><u><i>APPLICATION FORM</i></u></h1>
+        <div>
+        <p><i>This is the application of an student & the information about the people who belonga towhich country.calculating the total number of people belongs to which country.An application form is used to collect relevant and required information from an applicant.
+        
+        For a lot of businesses, the application form itself is a minor test of the individual's ability to follow instructions, penmanship, literacy, and <b>communication skills</b>. A poorly completed application form may in itself prevent the individual from being considered or disqualify them completely.</i>
+        </p></div>
+        <form style="font-size: 25px;color: orangered;">
+        <pre>
+        <label>      NAME:<input type="text" name="NAME" ></label><br>
+        <label>  EMAIL ID:<input type="email" name="EMAIL" required></label><br>
+        <label>     DOB:<input type="date" name="DOB"></label><br>
+        <label> PHONE NUM:<input type="number" name="PHONE NUM" required></label><br>
+        <label>   COUNTRY:  <select style="font-size: 25px">
+            <option value="India">India</option>
+            <option value="America">America</option>
+            <option value="England">England</option>
+            <option value="paris">Paris</option>
+            <option value="london">London</option>
+            <option value="sweden">Sweden</option>
+            <option value="denmark">Denmark</option>
+            <option value="poland">Poland</option>
+            <option value="australia">Australia</option>
+            <option value="china">China</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="bombay"> Bombay</option>
+        </select><br><br></pre>
+        <a href="connect.html">SUBMIT</a>
+        </form>
+        </fieldset>
+       </center>  
+      </div>
+    </div>
+    
+</body>
+</html>
